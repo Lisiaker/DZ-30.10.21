@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+.top{
+    margin-left:200px;
+    background-image:url(/Users/yarovoy/Desktop/coursesdistance/dz/lesson1/home.jpg);
+    width:1600px;
+    height:770px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.toptop{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    height:170px;
+}
+.llogo{
+    font-family: 'Montserrat-bold', sans-serif;
+    padding-left:10px;
+}
+.tt{
+    display:flex;
+    justify-content:space-around;
+    width:500px;
+    margin-left:800px;
+}
+.topbottom{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:1600px;
+    height:300px;
+    margin-top:200px;
+}
+.button{
+    border:1px solid white;
+    padding-left:10px;
+    padding-right:10px;
+}
+.button:hover{
+    color:brown;
+    background-color:white;
+}
+.middletop{
+    display:flex;
+    align-items:center;
+    flex-direction:column
+}
+.circleplus1{
+    border-radius:50%;
+    width:91px;
+    height:91px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:brown;
+}
+.circleplus1:hover{
+    width:100px;
+    height:100px;
+}
+.circleplus2:hover{
+    width:100px;
+    height:100px;
+}
+.circleplus3:hover{
+    width:100px;
+    height:100px;
+}
+.plus1, .plus2, .plus3{
+    width:345px;
+    height:345px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    padding:0px;
+}
+.robot{
+    font-family: 'Roboto Slab', serif;
+    font-size:15px;
+}
+.montserat{
+    font-family: 'Montserrat', sans-serif;
+}
+.circleplus2, .circleplus3{
+    border-radius:50%;
+    width:91px;
+    height:91px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:solid grey 1px;
+}
+.middlebottom{
+    display:flex;
+    flex-direction:row;
+    width:1600px;
+    height:346px;
+    flex-wrap:nowrap;
+    padding:10px;
+    justify-content:space-between;
+}
+.middle{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+.bottom{ 
+    background-color:rgb(141, 21, 17);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:10px;
+    width:1600px;
+    margin-left:200px;
+    color:white;
+}
+.twitter{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:200px;
+}
+.ctwitter{
+    border-radius:50%;
+    width:36px;
+    height:36px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:solid white 1px;
+}
+.logo{
+    height:18px;
+    width:18px;
+    background-image:url(/Users/yarovoy/Desktop/coursesdistance/dz/lesson1/twitter.png);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    margin-top:5px;
+}
+.ctwitter:hover{
+    height:46px;
+    width:46px;
+    background-color:white;
+}
+.ctwitter:hover .logo{
+    background-image:url(/Users/yarovoy/Desktop/coursesdistance/dz/lesson1/redtwitter.png);
+}
+
